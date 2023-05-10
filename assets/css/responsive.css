@@ -1,0 +1,348 @@
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .grid.wide {
+        width: 940px !important;
+    }
+}
+
+@media (max-width: 1239px){
+
+    .grid.wide {
+        width: 680px;
+    }
+
+    /* fix khoảng trắng dư ra */
+    .love-travel {
+        overflow: hidden;
+    }
+
+    .header-slide .img {
+        height: 1400px;
+    }
+
+    .header-slide-body {
+        padding: 370px 0px 200px 0px;
+    }
+
+    .header__navbar {
+        display: block;
+        height: 130px;
+        background-color: rgba(0, 0, 0, 0.3);
+        text-align: center;
+    }
+
+    .header__navbar-logo {
+
+    }
+
+    .header__navbar .header__navbar-menu{
+        display: none;
+    }
+
+    .header__navbar-icon {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .header-slide-body_search-select-input {
+        width: 100%;
+    }
+
+    .header-slide-body_search_img-list {
+        display: block;
+    }
+    
+    .header-slide-body_search_img-item {
+        margin: 20px 15px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .header-slide-body_search_img-item div {
+        margin: auto;
+    }
+
+    .header-slide-body_search_img-item-image {
+        
+    }
+
+    .container-img_adv {
+        padding: 70px 40px;
+    }
+
+    .container-img_adv-text h6 {
+        font-size: 50px;
+    }
+
+    .container-beach_introduce-image {
+        margin: 60px 0 80px 0;
+    }
+
+    .container-beach_introduce-image_time-list {
+        bottom: calc(var(--height-item-time) / -1);
+        left: 0;
+        transform: translateX(0%);
+        right: 0;
+        background-color: #14b9d5;
+    }
+
+    .container-img_adv-discover {
+        margin-top: 80px;
+        display: block;
+    }
+    
+    .container-img_adv-discover-cities,
+    .container-img_adv-discover-nature {
+        width: 100%;
+    }
+
+    .container-beach_introduce-text-body {
+        padding-right: 30px;
+    }
+
+    .container-promotions-body-item-text-price {
+        display: block;
+    }
+
+    .container-promotions-body-item {
+        margin-top: 40px;
+    }
+
+    .footer-body_heading-input {
+        margin-top: 60px;
+    }
+
+    .footer-body_heading-input {
+        display: flex !important;
+    }
+
+    .footer-body_heading-input input {
+        width: 70%;
+    }
+
+    .footer-body_heading-input button {
+        width: 30%;
+        font-size: 18px;
+    }
+
+    .footer-body_text-overview {
+        display: block;
+    }
+
+    .footer-body_text-overview-right-list {
+        margin-top: 30px;
+    }
+
+    .footer-body_text-end {
+        display: block;
+        padding: 0;
+    }
+
+    .footer-body_text-end-left,
+    .footer-body_text-end-right {
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .footer-body_text-overview-right {
+        display: block;
+    }
+
+    .buy_fixed {
+        display: none;
+    }
+
+    .buy_img {
+        display: none;
+    }
+
+    .modal {
+        display: none;
+    }
+
+    .header__navbar-icon {
+        display: none;
+    }
+
+    .header__mobile-icon {
+        display: block;
+        font-size: 30px;
+        color: var(--white-color);
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .header__modal-moblie {
+        display: block;
+    }
+
+    /* modal */
+    .header__modal-moblie {
+        position: fixed;
+        top: 0;
+        right: 0;
+        color: var(--white-color);
+        background-color: #555;
+        padding: 10px 40px;
+        z-index: 9999;
+        overflow-y: scroll;
+        height: 100vh;
+        width: 300px;
+        text-transform: uppercase;
+        transform: translateX(100%);
+        transition: all 0.5s;
+    }
+
+    .checkbox-mobile-icon:checked ~ .header__modal-moblie {
+        transform: translateX(0);
+        transition: all 0.7s;
+    }
+
+    .checkbox-mobile-icon {
+        display: none;
+    }
+
+    .header__modal-moblie-list {
+        list-style: none;
+    }
+
+    .header__modal-moblie-item {
+        padding: 10px 0;
+    }
+
+    .header__modal-moblie-item:first-child {
+        padding: 20px 0;
+    }
+
+    .header__modal-moblie-item:last-child {
+        padding: 10px 0 50px 0;
+    }
+
+    .header__modal-moblie-link {
+        color: var(--white-color);
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .header__modal-moblie-item-menu,
+    .header__modal-moblie-item-menu-text-list {
+        list-style: none;
+        font-size: 15px;
+    }
+
+    .header__modal-moblie-item-menu-text,
+    .header__modal-moblie-item-menu-text-item {
+        padding: 10px 0 10px 20px;
+        letter-spacing: 2px;
+    }
+
+    .header__modal-moblie-link span,
+    .header__modal-moblie-item-menu-text span {
+        display: block;
+        padding-bottom: 10px;
+    }
+}
+
+
+@media (min-width: 550px) and (max-width: 739px) {
+    .grid.wide {
+        width: 470px !important;
+    } 
+}
+
+@media (max-width: 739px) {
+    .grid.wide {
+        width: 300px;
+    }     
+
+    .header-slide .img {
+        height: 1500px;
+    }
+
+    .container-beach_introduce-text-body {
+        padding-right: 0;
+    }
+
+    .container-beach_introduce-text-price-person {
+        font-size: 15px;
+    }
+
+    .footer-body_text-end {
+        padding: 0 20px;
+    }
+
+    .container-img_adv-text {
+        margin-top: 60px;
+    }
+
+    .container-img_adv {
+        padding: 0 40px;
+    }
+
+    .container-img_adv-text:nth-child(2) {
+        line-height: 50px;
+        margin-top: 0;
+    }
+
+    .container-beach_introduce-image {
+        width: 100%;
+        height: 410px;
+        padding: 40px 10px;
+        margin-top: 20px;
+    }
+
+    .container-beach_introduce-image_body-img {
+        /* height: 40%; */
+    }
+
+    .container-beach_introduce-image_img-one,
+    .container-beach_introduce-image_img-two,
+    .container-beach_introduce-image_img-three {
+        height: 40%;
+    }
+
+    .container-beach_introduce-image_time-list {
+        top: 39%;
+        display: block;
+    }
+
+    .container-beach_introduce-image_time-item::before {
+        border-right: none;
+    }
+
+    .container-beach_describe {
+        margin-top: 150px;
+    }
+
+    .container-beach_describe-world {
+        margin-top: 20px;
+    }
+
+    .footer-body_heading {
+        display: block;
+    }
+
+    .footer-body_heading-input {
+        display: block !important;
+    }
+
+    .footer-body_heading-input input {
+        width: 100%;
+    }
+
+    .footer-body_heading-input button {
+        display: block;
+        padding: 15px 0 !important;
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    
+
+
+
+}
+
+

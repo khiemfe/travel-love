@@ -1,0 +1,12 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333 ;
+    --border-color: #dbdbdb;
+    --star-gold-color: #ffce3e;
+
+    --height-h3: 35px;
+    --height-p: 12px;
+    --padding-time-item: 30px;
+    --height-item-time: calc(var(--height-h3) + var(--height-p) + var(--padding-time-item) * 2);
+}
