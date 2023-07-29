@@ -197,9 +197,9 @@
         transition: all 0.7s;
     }
 
-    .checkbox-mobile-icon {
+    /* .checkbox-mobile-icon {
         display: none;
-    }
+    } */
 
     .header__modal-moblie-list {
         list-style: none;

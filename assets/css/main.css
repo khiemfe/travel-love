@@ -97,12 +97,13 @@ html {
     position: relative;
 }
 
-.img {
+.header-slide .img {
     position: relative;
     width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 /* .header-slide-img{
@@ -842,22 +843,7 @@ select {
     height: 100%;
 }
 
-/* .container-beach_introduce-image_body-img::before {
-    content: "";
-    position: absolute;
-    margin: auto;
-    top: 20px;
-    right: 0;
-    left: 0px;
-    width: 60px;
-    height: 3px;
-    background-color: rgba(255, 255, 255, 0.5);
-    z-index: 10;
-} */
-
-.container-beach_introduce-image_img-one,
-.container-beach_introduce-image_img-two,
-.container-beach_introduce-image_img-three {
+.container-beach_introduce-image_img-item {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -866,45 +852,24 @@ select {
     position: absolute;
 }
 
-.container-beach_introduce-image_img-one {
+.container-beach_introduce-image_img-item.one {
     background-image: url(../img/package-3.jpg);
-    opacity: 1;
-    /* z-index: 11; */
+    display: none;
 }
 
-/* .container-beach_introduce-image_img-one::before,
-.container-beach_introduce-image_img-two::before,
-.container-beach_introduce-image_img-three::before {
-    content: "";
-    position: absolute;
-    margin: auto;
-    top: 20px;
-    right: 0;
-    left: 0px;
-    width: 60px;
-    height: 3px;
-    background-color: rgba(255, 255, 255, 0.5);
-    z-index: 10;
-} */
-
-.container-beach_introduce-image_img-two {
+.container-beach_introduce-image_img-item.two {
     background-image: url(../img/parallax-4.jpg);
-    opacity: 0;
+    display: none;
 }
 
-/* .container-beach_introduce-image_img-two::before {
-    left: -160px;
-} */
-
-.container-beach_introduce-image_img-three {
+.container-beach_introduce-image_img-item.three {
     background-image: url(../img/parallax-4-1.jpg);
-    opacity: 0;
+    display: none;
 }
 
-/* 
-.container-beach_introduce-image_img-three::before {
-    left: 160px;
-} */
+.container-beach_introduce-image_img-item.active {
+    display: block;
+}
 
 .container-beach_introduce-image_body-img-select-one,
 .container-beach_introduce-image_body-img-select-two,
@@ -997,6 +962,7 @@ select {
     letter-spacing: 2px;
     font-size: var(--height-h3);
     line-height: var(--height-h3);
+    margin-bottom: 5px;
 }
 
 .container-beach_introduce-image_time-item p {
@@ -1593,6 +1559,10 @@ select {
 }
 
 .checkbox-navbar-icon {
+    display: none;
+}
+
+.checkbox-mobile-icon {
     display: none;
 }
 
